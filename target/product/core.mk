@@ -31,6 +31,8 @@ PRODUCT_PACKAGES += \
     PacProcessor \
     ProxyHandler \
     SharedStorageBackup \
+	telephony-common \
+    telephony-msim \
     VpnDialogs
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
